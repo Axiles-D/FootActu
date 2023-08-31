@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25%;
+    align-items: center;
+
+    text-align: center;
+
+    border-bottom: 2px solid #000;
+    background-color: #D9D9D9;
+}
+
+nav {
+    display: flex;
+    gap: 50%;
+    margin-right: 23%;
+}
+
+#logo {
+    margin-top: 4px;
+    width: 60px;
+    margin-left: 100%;
+}
+
+#identification {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+a {  
+    outline: none;
+    color: #000000 !important
+}
+
+@media screen and (max-width: 1600px) {
+    header{
+        gap: 20%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header{
+        gap: 15%;
+    }
+
+    nav {
+        gap: 35%;
+    }
+}

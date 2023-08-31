@@ -1,0 +1,70 @@
+body {
+    height: 100dvh;
+    background-image: url(../image/Rectangle6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+
+    margin-top: 2%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+}
+
+form {
+    margin-top: 2%;
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.67);
+    padding: 3%;
+
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.espace {
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.5em;
+}
+
+.column input {
+    height: 15%;
+    border: none;
+}
+
+.column textarea {
+    border: none;
+    resize: none;
+}
+
+.top{
+    margin-top: 10%;
+}
+
+.top input {
+    padding: 6px;
+    font-size: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

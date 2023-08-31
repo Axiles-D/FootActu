@@ -1,0 +1,57 @@
+#header{
+    position: fixed;
+    top: 0px;
+}
+
+body{
+    height: 100dvh;
+    background-image: url(../image/vienna-reyes-qCrKTET_09o-unsplash-modified3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    width: 20%;
+
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    margin: 0;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    margin: 0;
+}
+
+#best {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 35%;
+}
+
+#desc {
+    position: absolute;
+    bottom: 12%;
+    left: 30%;
+    width: 40%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
